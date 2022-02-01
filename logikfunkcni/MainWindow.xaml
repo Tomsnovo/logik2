@@ -120,7 +120,7 @@
         <Rectangle Name="Ctverec_8_6" HorizontalAlignment="Center" Grid.Column="6" Grid.Row="8" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="#FFF7F7F7"/>
         <Rectangle Name="Ctverec_8_7" HorizontalAlignment="Center" Grid.Column="7" Grid.Row="8" Height="30" Stroke="Black" VerticalAlignment="Center" Width="30" Fill="#FFF7F7F7"/>
 
-        <Button Content="Nová hra" Grid.ColumnSpan="4" Grid.Column="0" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="219" FontSize="28" Click="Button_Click"/>
-        <Button Content="Vyhodnotit" Grid.ColumnSpan="4" Grid.Column="4" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="219" FontSize="28"/>
+        <Button Name ="BtnNovaHra" Content="Nová hra" Grid.ColumnSpan="4" Grid.Column="0" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="219" FontSize="28" Click="BtnNovaHra_Click"/>
+        <Button Name ="BtnVyhodnotit" Content="Vyhodnotit" Grid.ColumnSpan="4" Grid.Column="4" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Height="43" Width="219" FontSize="28" Click="BtnVyhodnotit_Click"/>
     </Grid>
 </Window>

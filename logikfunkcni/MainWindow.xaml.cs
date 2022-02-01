@@ -29,6 +29,7 @@ namespace Logik_IT1A
         {
             InitializeComponent();
             Prvni_Kolo();
+            GenerujBarvy();
         }
         private Brush GenerujBarvu()
         {
@@ -160,9 +161,40 @@ namespace Logik_IT1A
             Nastav_Kolo_Disabled(Kruh_8_3);
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BtnNovaHra_Click(object sender, RoutedEventArgs e)
         {
             Prvni_Kolo();
+        }
+
+        private void BtnVyhodnotit_Click(object sender, RoutedEventArgs e)
+        {
+            int cerna = 0;
+            if(barva1 == Kruh_0_0.Fill)
+            {
+                cerna++;
+            }
+            if(barva2 == Kruh_0_1.Fill)
+            {
+                cerna++;
+            }
+            if (barva3 == Kruh_0_2.Fill)
+            {
+                cerna++;
+            }
+            if (barva4 == Kruh_0_3.Fill)
+            {
+                cerna++;
+            }
+
+
+
+
+
+
+
+
+
+
         }
     }
 }
